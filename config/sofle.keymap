@@ -165,11 +165,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp LA(F4)  &kp F1          &kp F2         &kp F3        &kp F4          &kp F5                                  &kp F6           &kp F7     &kp F8     &kp F9     &kp F10              &kp F11
-&trans      &kp EXCL        &kp AT         &kp HASH      &kp DOLLAR      &kp PERCENT                             &kp PG_UP        &kp HOME   &kp UP     &kp END    &kp COLON            &kp F12
-&kp DEL     &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp BACKSLASH   &kp MINUS                               &kp PG_DN        &kp LEFT   &kp DOWN   &kp RIGHT  &double_quote_block  &quote_block
-&trans      &kp UNDERSCORE  &kp PLUS       &paren_group  &bracket_group  &brace_group  &kp C_PREV    &kp C_NEXT  &kp LC(LA(DEL))  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp GRAVE            &trans
-                            &trans         &trans        &trans          &trans        &trans        &mo 2       &trans           &trans     &trans     &trans
+&kp LA(F4)  &kp F1          &kp F2         &kp F3        &kp F4          &kp F5                                  &kp F6           &kp F7     &kp F8                       &kp F9                   &kp F10              &kp F11
+&trans      &kp EXCL        &kp AT         &kp HASH      &kp DOLLAR      &kp PERCENT                             &kp PG_UP        &kp HOME   &kp UP                       &kp END                  &kp COLON            &kp F12
+&kp DEL     &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp BACKSLASH   &kp MINUS                               &kp PG_DN        &kp LEFT   &kp DOWN                     &kp RIGHT                &double_quote_block  &quote_block
+&trans      &kp UNDERSCORE  &kp PLUS       &paren_group  &bracket_group  &brace_group  &kp C_PREV    &kp C_NEXT  &kp LC(LA(DEL))  &kp LC(X)  &kp LC(C)                    &kp LC(V)                &kp GRAVE            &trans
+                            &trans         &trans        &trans          &trans        &trans        &mo 2       &trans           &trans     &kp RA(RC(RG(RIGHT_SHIFT)))  &kp RA(RC(RIGHT_SHIFT))
             >;
 
             sensor-bindings =
@@ -186,11 +186,11 @@
             //              |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1      &bt BT_SEL 2          &bt BT_SEL 3           &bt BT_SEL 4                    &none   &none          &kp SLASH     &kp ASTERISK  &kp MINUS  &trans
-&trans      &kp COLON        &kp LESS_THAN     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans                          &none   &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &trans
-&trans      &kp MINUS        &kp EQUAL         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp CLCK                        &none   &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &trans
-&trans      &kp EXCLAMATION  &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &trans    &trans  &none   &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &none
-                             &trans            &trans                &trans                 &trans        &mo 1     &trans  &trans  &kp BACKSPACE  &kp NUMBER_0  &kp PERIOD
+&bt BT_CLR  &bt BT_SEL 0     &bt BT_SEL 1            &bt BT_SEL 2                &bt BT_SEL 3           &bt BT_SEL 4                    &none   &none          &kp SLASH     &kp ASTERISK  &kp MINUS  &trans
+&trans      &kp COLON        &kp LESS_THAN           &kp LEFT_PARENTHESIS        &kp RIGHT_PARENTHESIS  &trans                          &none   &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp PLUS   &trans
+&trans      &kp MINUS        &kp EQUAL               &kp LEFT_BRACE              &kp RIGHT_BRACE        &kp CLCK                        &none   &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &trans
+&trans      &kp EXCLAMATION  &kp GREATER_THAN        &kp LEFT_BRACKET            &kp RIGHT_BRACKET      &trans        &trans    &trans  &none   &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &none
+                             &kp LA(LC(LEFT_SHIFT))  &kp LA(LC(LG(LEFT_SHIFT)))  &trans                 &trans        &mo 1     &trans  &trans  &kp BACKSPACE  &kp NUMBER_0  &kp PERIOD
             >;
 
             sensor-bindings =
